@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ViewTree</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+
+
+<div id="filelist-dcm" class="form-group">
+    <div class="row title-row">
+        <div class="col-md-6 col-md-offset-6 col-sm-4 col-sm-offset-6"><h5>Download Center System</h5></div>
+    </div>
+    <div id="wrapper">
+        <div id="wrapper-sidefile" class="col-xs-6 col-md-4">
+            <table class="table">
+                <tr>
+                    <td><div id="treeview"></div></td>
+                </tr>               
+            </table>
+        </div>
+        <div id="wrapper-content" class="col-xs-12 col-sm-2 col-md-8">
+            <table class="table">
+                <col width="80%">
+                <tr>
+                    <td colspan='8'>
+                        <div class="row">
+                            <div class="col-md-4">
+                               1
+                            </div>
+                            <div class="col-md-8" style="text-align:right">
+                                <input type="button" value="Add New File" id="add" />
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan='8'><div class='text-center'>Standard</div></th>
+                </tr>
+                <tr>
+                    <td colspan='8'><div class='text-center'>OS</div></td>
+                </tr>
+                <tr>
+                    <td class='text-center'>File Name</td>
+                    <td class='text-center'>Part Number</td>
+                    <td class='text-center'>Revision</td>
+                    <td class='text-center'>Release Date</td>
+                    <td class='text-center'>Upload Date</td>
+                    <td class='text-center'>Desc</td>
+                    <td class='text-center'>Status</td>
+                    <td class='text-center'>
+                    </td>
+                </tr>
+                <tr>
+                    <td class='text-center'><a href="#">OS_WES7_642_0000BWE7</a><span class="glyphicon glyphicon-save"></span></td>
+                    <td class='text-center'>642_0000BWE7_080G</td>
+                    <td class='text-center'>1.0.0.0</td>
+                    <td class='text-center'>2017/5/4</td>
+                    <td class='text-center'>2017/5/4</td>
+                    <td class='text-center'>WES7 OS Img</td>
+                    <td class='text-center'>Release for PA</td>
+                    <td class='text-center'>
+                        <input type="button" value="Formal Release" id="formalrelease" /><br />
+                        <input type="button" value="Edit" id="edit" />
+                        <input type="button" value="Delete" id="delete" />
+                    </td>
+                </tr>
+                <tr>
+                    <th colspan='8'><div class='text-center'>OEM</div></th>
+                </tr>
+                <tr>
+                    <td colspan='8'><div class='text-center'>Driver</div></td>
+                </tr>
+                <tr>
+                    <td colspan='8'><div class='text-center'>Audio</div></td>
+                </tr>
+                <tr>
+                    <td class='text-center'><a href="#">OS_WES7_642_0000BWE7</a></td>
+                    <td class='text-center'>642_0000BWE7_080G</td>
+                    <td class='text-center'>1.0.0.0</td>
+                    <td class='text-center'>2017/5/4</td>
+                    <td class='text-center'>2017/5/4</td>
+                    <td class='text-center'>WES7 OS Img</td>
+                    <td class='text-center'>Release for PA</td>
+                    <td class='text-center'>
+                        <input type="button" value="Edit" id="edit" />
+                        <input type="button" value="Delete" id="delete" />
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+</html>

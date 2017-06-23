@@ -1,0 +1,26 @@
+[{
+	"id": 1000,
+	"text": "電車",
+	"children": [
+		{
+			"id": 100001,
+			"text": "板橋",
+			"children": null
+		},
+		{
+			"id": 100002,
+			"text": "萬華",
+			"children": null
+		},
+		{
+			"id": 100003,
+			"text": "台北",
+			"children": null
+		},
+	]  
+},
+{
+	"id": 2000,
+	"text": "自強",
+	"children": []
+}]
